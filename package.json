@@ -1,0 +1,35 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/AngieBoiko/goit-js-hw-12-countries",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url /goit-js-hw-12-countries/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngieBoiko/goit-js-hw-12-countries"
+  },
+  "keywords": [],
+  "author": "Anzhela Boiko <boikoanzhela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "js": "^0.1.0",
+    "lodash.debounce": "^4.0.8"
+  }
+}
