@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AngieBoiko.github.io/goit-js-hw-12-countries",
+  "homepage": "https://angieboiko.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AngieBoiko/goit-js-hw-12-countries"
+    "url": "git+https://github.com/angieboiko/goit-js-hw-12-countries"
   },
   "keywords": [],
   "author": "Anzhela Boiko <boikoanzhela@gmail.com>",
