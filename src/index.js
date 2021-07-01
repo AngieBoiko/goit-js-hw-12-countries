@@ -15,7 +15,11 @@ let searchQuery = '';
 
 refs.input.addEventListener('input', debounce(onSearch, 500));
 
+
 function onSearch(e) {
+     if(!e.target.value) {
+        return;
+    };
     searchQuery = e.target.value;
     fetchCountries(searchQuery).then(render).catch(onCatch);
     
