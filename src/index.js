@@ -1,4 +1,5 @@
 'use strict';
+import './sass/main.scss';
 import fetchCountries from './js/fetchCountries.js';
 import list from './templates/countriesList.hbs';
 import card from './templates/countryCard.hbs';
@@ -70,6 +71,4 @@ function onReset(event) {
     event.preventDefault();
     clearContent()
     refs.input.value=''
-
-
 }
